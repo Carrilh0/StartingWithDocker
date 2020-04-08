@@ -6,7 +6,7 @@ class Conexao{
     connectToServer() {
         const dbName = 'MongoNode';
 
-            MongoClient.connect("mongodb://localhost:27017/MongoNode", (error, client) => {
+            MongoClient.connect("mongodb://mongo:27017/MongoNode", (error, client) => {
                 if(error) {
                     console.log('Unable to connect to the Mongodb server. Error : ', error);
                 } else {
