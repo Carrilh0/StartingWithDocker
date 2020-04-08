@@ -21,4 +21,4 @@
 | `PUT` |`/user/:id`|Atualiza dados de um usuário. |
 | `DELETE` |`/user`| Remove um registro do sistema. |
 
-###### Tecnologias usadas: Node.js, Express, MongoDB (Driver nativo)
+###### Tecnologias usadas: Docker, Node.js, Express, MongoDB (Driver nativo)
