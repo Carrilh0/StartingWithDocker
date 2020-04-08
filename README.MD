@@ -1,8 +1,14 @@
-# API REST MONGODB/NODE.JS
+# DOCKER AND DOCKER-COMPOSE
 
-##### Afim de aprender como funciona um banco não relacional e me aprofundar no Node.js, criei uma API rest de usuários. Ultilizando o driver nativo do mongoDB.
+##### Realização de um deploy ultilizando a plataforma do docker em conjunto com o docker compose.
 
-##### Para este projeto eu criei uma [função](./src/Helpers/ValueForNextSequence.js) que faz o papel do auto-increment do MYSQL, uma vez em que eu precisava dos ID para poder referenciar na API. O driver nativo do mongoDB não existe "auto-incremente", diferente do mongoose. 
+##### Separei a aplicação em dois containers, um para o banco de dados Mongo e o outro para a pŕopia aplicação, que aproveitei deste [projeto](https://github.com/Carrilh0/MongoWithNode).
+
+*Etapas para o deploy:*
+
+```docker-compose build .```
+
+```docker-compose up -d```
 
 
 ## Rotas
